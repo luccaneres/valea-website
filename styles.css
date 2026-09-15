@@ -61,3 +61,7 @@ h1{font-size:clamp(2.8rem,6.1vw,6.05rem);max-width:805px;letter-spacing:-.05em}
 .gallery-control.next{right:10px}
 @media (max-width:1040px){.brand{min-width:152px}.brand img{height:52px}.gallery-card{flex-basis:min(82vw,420px)}.gallery-track{gap:18px}}
 @media (max-width:640px){.brand img{height:45px}.brand{min-width:118px}h1{font-size:clamp(2.45rem,13vw,3.55rem);letter-spacing:-.045em}.gallery-card{flex-basis:82vw}.gallery-viewport{padding-top:8px}.gallery-control.prev{left:2px}.gallery-control.next{right:2px}}
+
+/* Ajustes telas grandes / TVs: container mais largo e tipografia maior para evitar layout "encolhido" em resoluções acima do notebook */
+@media (min-width:2000px){:root{--max:clamp(1180px,58vw,1760px)}html{font-size:18px}.site-header{height:88px}.site-header.is-scrolled{height:78px}.brand{min-width:190px}.brand img{height:66px}.hero-logo{height:175px}.service-detail{min-height:680px}.floating-whatsapp{width:70px;height:70px}.floating-whatsapp svg{width:38px;height:38px}}
+@media (min-width:3200px){:root{--max:clamp(1180px,54vw,2100px)}html{font-size:21px}.site-header{height:100px}.site-header.is-scrolled{height:88px}.brand{min-width:220px}.brand img{height:78px}.hero-logo{height:205px}.service-detail{min-height:760px}.floating-whatsapp{width:80px;height:80px}.floating-whatsapp svg{width:44px;height:44px}}
